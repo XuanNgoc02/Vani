@@ -3,7 +3,7 @@ h1 {
   text-align: center;
 }
 td {
-  text-align:center;
+  text-align: center;
 }
 .tieude {
   color: red;
@@ -25,11 +25,11 @@ head,body {
 }
 .header:{
    flex: 15%;
-   backcgroundcolor: lightgray;
+   backcground-color: lightgray;
 }
 .menu:{
    flex: 5%;
-   backgroundcolor: darkgray;
+   background-color: darkgray;
    color: white
    display: flex;
 }
@@ -37,7 +37,7 @@ head,body {
    padding: 15px, 20px;
 }
 .menu hover:{
-   backgroundcolor: darkgray;
+   background-color: darkgray;
    color: black
 }
 .content:{
@@ -47,9 +47,10 @@ head,body {
 .content iframe {
    flex: 1;
    border: none ;
-width: 100%;
-height: 100%;
+   width: 100%;
+   height: 100%;
 }
 .footer:{
    flex: 10%;
+   background-color: lightgray
 }
