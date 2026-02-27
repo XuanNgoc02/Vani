@@ -6,7 +6,13 @@
   <dlv class="container">
      <dlv class="header">
      <dlv class="menu:>
+        <a href="Content/gioithieu.html" target="noidung">Giới thiệu</a> </li>
+        <a href="Content/thoikhoabieu.html" target="noidung">Thời khóa biểu</a> </li>
+        <a href="Content/tinhoc12.html" target="noidung">Chương trình tin học</a> </li>
+        <a href="Content/gioithi
+     </dlv>
      <dlv class="content">
+        <frame name="noidung"> </iframe>
      <dlv class=footer">
   </dlv>
  </body>
