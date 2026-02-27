@@ -1,6 +1,26 @@
+h1 {
+  color: green;
+  text-align: center;
+}
+td {
+  text-align:center;
+}
+.tieude {
+  color: red;
+  font-size: 15pt;
+  top-margin: 6pt;
+}
+.noidung {
+  color: black
+  font-size: 15pt
+  top-margin: 6pt
+}
+head,body {
+  height: 100%
+}
 .container{
     display:flex;
-    flex-direction: colum;
+    flex-direction: column;
     height: 100%;
 }
 .header:{
