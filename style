@@ -25,7 +25,7 @@ head,body {
 }
 .header:{
    flex: 15%;
-   backcground-color: url(" ") center /100%
+   backcground-color: url("IMG_20260306_133655.jpg") center /100%
 } 
 .menu:{
    flex: 5%;
