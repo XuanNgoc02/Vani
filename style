@@ -30,7 +30,7 @@ head,body {
 .menu:{
    flex: 5%;
    background-color: darkgray;
-   color: white
+   color: white;
    display: flex;
 }
 .menu a:{
