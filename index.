@@ -10,7 +10,7 @@
         <a href="Content/gioithieu.html" target="noidung">Giới thiệu</a> </li>
         <a href="Content/thoikhoabieu.html" target="noidung">Thời khóa biểu</a> </li>
         <a href="Content/tinhoc12.html" target="noidung">Chương trình tin học</a> </li>
-        <a href="Content/gioithieunghe.css" target="gioithieunghe.css">Giới thiệu nghề </a> </li>
+        <a href="Content/gioithieunghe.css" target="noidung">Giới thiệu nghề </a> </li>
     </dlv>
      <dlv class="content"> </div>
         <frame name="noidung"> </iframe> </div>
