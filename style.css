@@ -1,6 +1,6 @@
 h1 {
   font-size: 25pt;
-  color: green;
+  color: red;
   text-align: center;
   font-weight: bold;
 }
@@ -16,55 +16,74 @@ table {
 td {
   border: 2px solid;
   font-size: 14pt;
-  text-align: center;
+  text-align: center;  
   padding-bottom:5px;
   padding-top:5px;
 }
-.tieude {
-  color: red;
+th {
+  border: 2px solid;
+  font-size:17pt;
+  text-align:center;
+  font-weight:bold;
+  padding-bottom:5px;
+  padding-top:5px;
+}
+.titlelist {
+ color: blue;
+  font-size: 17pt;
+  font-weight: bold;
+}
+.contextinlist {
+  color: black;
   font-size: 15pt;
-  top-margin: 6pt;
 }
-.noidung {
-  color: black
-  font-size: 15pt
-  top-margin: 6pt
+html, body {
+  height:100%;
 }
-html,body {
-  height: 100%;
+.room{
+  display:flex;
+  height:100vh;
+  flex-direction:column;
+  }
+.menu{
+  flex:5%;
+  background-color:black;
+  display:flex;
 }
-.container{
-    display:flex;
-    flex-direction: column;
+.context{
+  flex:60%;
+  background-color:white;
+}
+.footer{
+  flex:10%;
+  background-color:grey;
+}
+.context iframe{
+  flex:1;
+  border:none;
+  width:100%;
+  height:100%;
+}
+.header {
+    flex: 0 0 25%;
+    max-height: 25vh; 
+    overflow: hidden;
+    background-color:grey;
+}
+.header img {
+    width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
-.header:{
-   flex: 15%;
-   backcground-color: url("IMG_20260306_133655.jpg") center /100%
-} 
-.menu:{
-   flex: 5%;
-   background-color: darkgray;
-   color: white;
-   display: flex;
+
+.menu a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
 }
-.menu a:{
-   padding: 15px, 20px;
-}
-.menu hover:{
-   background-color: darkgray;
-   color: black
-}
-.content:{
-   flex: 70%;
-   backgroundcolor: white;
-.footer:{
-   flex: 10%;
-   background-color: lightgray
-}
-.content iframe {
-   flex: 1;
-   border: none ;
-   width: 100%;
-   height: 100%;
+
+.menu a:hover { 
+    background-color: lightgrey;
+    color: black;
 }
