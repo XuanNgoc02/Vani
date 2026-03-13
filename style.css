@@ -1,9 +1,24 @@
 h1 {
+  font-size: 25pt;
   color: green;
   text-align: center;
+  font-weight: bold;
+}
+h2 {
+  font-size: 20pt;
+  color: aqua;
+  font-weight: bold;
+}
+table {
+  width:100%;
+  border-collapse:collapse;
 }
 td {
+  border: 2px solid;
+  font-size: 14pt;
   text-align: center;
+  padding-bottom:5px;
+  padding-top:5px;
 }
 .tieude {
   color: red;
@@ -15,7 +30,7 @@ td {
   font-size: 15pt
   top-margin: 6pt
 }
-head,body {
+html,body {
   height: 100%;
 }
 .container{
@@ -43,14 +58,13 @@ head,body {
 .content:{
    flex: 70%;
    backgroundcolor: white;
+.footer:{
+   flex: 10%;
+   background-color: lightgray
 }
 .content iframe {
    flex: 1;
    border: none ;
    width: 100%;
    height: 100%;
-}
-.footer:{
-   flex: 10%;
-   background-color: lightgray
 }
