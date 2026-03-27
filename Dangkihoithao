@@ -1,0 +1,16 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+ </head>
+ <body>
+   <h1> Đăng kí tham gia hội thao </h1>
+   <form action = "Bai7-NV3.html">
+     <label>Họ và tên:<input type = "text" name= "txt name="txtTen"></label><br>
+   <label>Địa chỉ email<input type = "email" name= "txtEmail"></label><br>
+   <input type = "radio" name = "lop10"> Lớp 10
+   <input type = "radio" name = "lop11"> Lớp 11   
+   <input type = "radio" name = "lop12"> Lớp 12
+   </form>
+   <p> tham dự môn </p>
+   <form action = "Bai7-NV3.html>
+   <input type = "checkbox" name "chkbongban"> Bóng bàn <br>
