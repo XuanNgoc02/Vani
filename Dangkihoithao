@@ -13,4 +13,11 @@
    </form>
    <p> tham dự môn </p>
    <form action = "Bai7-NV3.html>
-   <input type = "checkbox" name "chkbongban"> Bóng bàn <br>
+     <input type = "checkbox" name "chkbongban"> Bóng bàn <br>
+     <input type = "checkbox" name "chkcaulong"> Cầu Lông <br>
+     <input type = "checkbox" name "chkcovua"> Cờ Vua <br>
+   <input type = "submit" name = "cmd" value= "Đăng kí">
+     <input type = "submit" name = "cmd" value= "Hủy bỏ">
+  </form>
+ </body>
+</html>
