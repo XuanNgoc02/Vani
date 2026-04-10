@@ -51,8 +51,9 @@ html, body {
   display:flex;
 }
 .context{
-  flex:60%;
+  flex: 1;
   background-color:white;
+  
 }
 .footer{
   flex:10%;
